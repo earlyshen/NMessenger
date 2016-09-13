@@ -18,6 +18,40 @@
 		19F4C12E1D6CF4550044E340 /* UIFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12C1D6CF4550044E340 /* UIFontTests.swift */; };
 		19F4C1311D6CF4C00044E340 /* BubbleConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */; };
 		19F4C1321D6CF4C00044E340 /* MessageNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */; };
+		F13143A11D88B8FF00C8BE43 /* nMessenger-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13143A61D88B93700C8BE43 /* BubbleConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87101D63813700F3C21C /* BubbleConfigurationProtocol.swift */; };
+		F13143A71D88B93700C8BE43 /* ImageBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87111D63813700F3C21C /* ImageBubbleConfiguration.swift */; };
+		F13143A81D88B93700C8BE43 /* SimpleBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87121D63813700F3C21C /* SimpleBubbleConfiguration.swift */; };
+		F13143A91D88B93700C8BE43 /* StandardBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87131D63813700F3C21C /* StandardBubbleConfiguration.swift */; };
+		F13143AA1D88B93700C8BE43 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87151D63813700F3C21C /* Bubble.swift */; };
+		F13143AB1D88B93700C8BE43 /* DefaultBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87161D63813700F3C21C /* DefaultBubble.swift */; };
+		F13143AC1D88B93700C8BE43 /* ImageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87171D63813700F3C21C /* ImageBubble.swift */; };
+		F13143AD1D88B93700C8BE43 /* SimpleBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87181D63813700F3C21C /* SimpleBubble.swift */; };
+		F13143AE1D88B93700C8BE43 /* StackedBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87191D63813700F3C21C /* StackedBubble.swift */; };
+		F13143AF1D88B93700C8BE43 /* CollectionViewContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC871C1D63813700F3C21C /* CollectionViewContentNode.swift */; };
+		F13143B01D88B93700C8BE43 /* CustomContentCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC871D1D63813700F3C21C /* CustomContentCellNode.swift */; };
+		F13143B11D88B93700C8BE43 /* ContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC871E1D63813700F3C21C /* ContentNode.swift */; };
+		F13143B21D88B93700C8BE43 /* CustomContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87201D63813700F3C21C /* CustomContentNode.swift */; };
+		F13143B31D88B93700C8BE43 /* ImageContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87221D63813700F3C21C /* ImageContentNode.swift */; };
+		F13143B41D88B93700C8BE43 /* NetworkImageContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87241D63813700F3C21C /* NetworkImageContentNode.swift */; };
+		F13143B51D88B93700C8BE43 /* TextContentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87261D63813700F3C21C /* TextContentNode.swift */; };
+		F13143B61D88B93700C8BE43 /* TypingIndicatorContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87281D63813700F3C21C /* TypingIndicatorContent.swift */; };
+		F13143B71D88B93700C8BE43 /* GeneralMessengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC872A1D63813700F3C21C /* GeneralMessengerCell.swift */; };
+		F13143B81D88B93700C8BE43 /* HeadLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC872C1D63813700F3C21C /* HeadLoadingIndicator.swift */; };
+		F13143B91D88B93700C8BE43 /* MessageSentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC872D1D63813700F3C21C /* MessageSentIndicator.swift */; };
+		F13143BA1D88B93700C8BE43 /* MessageCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC872F1D63813700F3C21C /* MessageCellProtocol.swift */; };
+		F13143BB1D88B93700C8BE43 /* MessageGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87301D63813700F3C21C /* MessageGroup.swift */; };
+		F13143BC1D88B93700C8BE43 /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87311D63813700F3C21C /* MessageNode.swift */; };
+		F13143BD1D88B93700C8BE43 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87341D63813700F3C21C /* CameraViewController.swift */; };
+		F13143BE1D88B93700C8BE43 /* InputBarViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */; };
+		F13143BF1D88B93700C8BE43 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C8B681D66273700F8616F /* InputBarView.swift */; };
+		F13143C01D88B93700C8BE43 /* NMessengerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87361D63813700F3C21C /* NMessengerBarView.swift */; };
+		F13143C21D88B93700C8BE43 /* NMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87381D63813700F3C21C /* NMessenger.swift */; };
+		F13143C31D88B93700C8BE43 /* NMessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87391D63813700F3C21C /* NMessengerViewController.swift */; };
+		F13143C41D88B96E00C8BE43 /* ModalAlertUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC873B1D63813700F3C21C /* ModalAlertUtilities.swift */; };
+		F13143C51D88B96E00C8BE43 /* UIColor+N1Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC873C1D63813700F3C21C /* UIColor+N1Colors.swift */; };
+		F13143C61D88B96E00C8BE43 /* UIFont+N1Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC873D1D63813700F3C21C /* UIFont+N1Fonts.swift */; };
+		F13143C81D88B98C00C8BE43 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13143C71D88B98C00C8BE43 /* AsyncDisplayKit.framework */; };
 		F13F39E11D650D490021A858 /* InputBarViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */; };
 		F1418CE71D380B2400C404B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1418CE61D380B2400C404B5 /* AppDelegate.swift */; };
 		F1418CE91D380B2400C404B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1418CE81D380B2400C404B5 /* ViewController.swift */; };
@@ -221,6 +255,10 @@
 		19F4C12C1D6CF4550044E340 /* UIFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontTests.swift; sourceTree = "<group>"; };
 		19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleConfigurationTests.swift; sourceTree = "<group>"; };
 		19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNodeTests.swift; sourceTree = "<group>"; };
+		F131439E1D88B8FF00C8BE43 /* nMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nMessenger-iOS.h"; sourceTree = "<group>"; };
+		F13143A21D88B8FF00C8BE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13143C71D88B98C00C8BE43 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarViewProtocol.swift; sourceTree = "<group>"; };
 		F1418CE31D380B2400C404B5 /* nMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1418CE61D380B2400C404B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -402,6 +440,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F131439A1D88B8FF00C8BE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13143C81D88B98C00C8BE43 /* AsyncDisplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1418CE01D380B2400C404B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,8 +515,18 @@
 		CEEA4FEAB14A1E9BACDB8B3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F13143C71D88B98C00C8BE43 /* AsyncDisplayKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F131439F1D88B8FF00C8BE43 /* nMessenger-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */,
+				F13143A21D88B8FF00C8BE43 /* Info.plist */,
+			);
+			path = "nMessenger-iOS";
 			sourceTree = "<group>";
 		};
 		F1418CDA1D380B2400C404B5 = {
@@ -479,6 +535,7 @@
 				F1418CE51D380B2400C404B5 /* nMessenger */,
 				F1418CFA1D380B2400C404B5 /* nMessengerTests */,
 				F1418D051D380B2400C404B5 /* nMessengerUITests */,
+				F131439F1D88B8FF00C8BE43 /* nMessenger-iOS */,
 				F1418CE41D380B2400C404B5 /* Products */,
 				CEEA4FEAB14A1E9BACDB8B3A /* Frameworks */,
 			);
@@ -490,6 +547,7 @@
 				F1418CE31D380B2400C404B5 /* nMessenger.app */,
 				F1418CF71D380B2400C404B5 /* nMessengerTests.xctest */,
 				F1418D021D380B2400C404B5 /* nMessengerUITests.xctest */,
+				F131439E1D88B8FF00C8BE43 /* nMessenger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -884,7 +942,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F131439B1D88B8FF00C8BE43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13143A11D88B8FF00C8BE43 /* nMessenger-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F131439D1D88B8FF00C8BE43 /* nMessenger-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13143A51D88B8FF00C8BE43 /* Build configuration list for PBXNativeTarget "nMessenger-iOS" */;
+			buildPhases = (
+				F13143991D88B8FF00C8BE43 /* Sources */,
+				F131439A1D88B8FF00C8BE43 /* Frameworks */,
+				F131439B1D88B8FF00C8BE43 /* Headers */,
+				F131439C1D88B8FF00C8BE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nMessenger-iOS";
+			productName = "nMessenger-iOS";
+			productReference = F131439E1D88B8FF00C8BE43 /* nMessenger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F1418CE21D380B2400C404B5 /* nMessenger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1418D0B1D380B2400C404B5 /* Build configuration list for PBXNativeTarget "nMessenger" */;
@@ -948,6 +1035,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Ebay Inc.";
 				TargetAttributes = {
+					F131439D1D88B8FF00C8BE43 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					F1418CE21D380B2400C404B5 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -975,6 +1065,7 @@
 			projectRoot = "";
 			targets = (
 				F1418CE21D380B2400C404B5 /* nMessenger */,
+				F131439D1D88B8FF00C8BE43 /* nMessenger-iOS */,
 				F1418CF61D380B2400C404B5 /* nMessengerTests */,
 				F1418D011D380B2400C404B5 /* nMessengerUITests */,
 			);
@@ -982,6 +1073,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F131439C1D88B8FF00C8BE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1418CE11D380B2400C404B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1142,6 +1240,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F13143991D88B8FF00C8BE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13143C41D88B96E00C8BE43 /* ModalAlertUtilities.swift in Sources */,
+				F13143C51D88B96E00C8BE43 /* UIColor+N1Colors.swift in Sources */,
+				F13143C61D88B96E00C8BE43 /* UIFont+N1Fonts.swift in Sources */,
+				F13143A61D88B93700C8BE43 /* BubbleConfigurationProtocol.swift in Sources */,
+				F13143A71D88B93700C8BE43 /* ImageBubbleConfiguration.swift in Sources */,
+				F13143A81D88B93700C8BE43 /* SimpleBubbleConfiguration.swift in Sources */,
+				F13143A91D88B93700C8BE43 /* StandardBubbleConfiguration.swift in Sources */,
+				F13143AA1D88B93700C8BE43 /* Bubble.swift in Sources */,
+				F13143AB1D88B93700C8BE43 /* DefaultBubble.swift in Sources */,
+				F13143AC1D88B93700C8BE43 /* ImageBubble.swift in Sources */,
+				F13143AD1D88B93700C8BE43 /* SimpleBubble.swift in Sources */,
+				F13143AE1D88B93700C8BE43 /* StackedBubble.swift in Sources */,
+				F13143AF1D88B93700C8BE43 /* CollectionViewContentNode.swift in Sources */,
+				F13143B01D88B93700C8BE43 /* CustomContentCellNode.swift in Sources */,
+				F13143B11D88B93700C8BE43 /* ContentNode.swift in Sources */,
+				F13143B21D88B93700C8BE43 /* CustomContentNode.swift in Sources */,
+				F13143B31D88B93700C8BE43 /* ImageContentNode.swift in Sources */,
+				F13143B41D88B93700C8BE43 /* NetworkImageContentNode.swift in Sources */,
+				F13143B51D88B93700C8BE43 /* TextContentNode.swift in Sources */,
+				F13143B61D88B93700C8BE43 /* TypingIndicatorContent.swift in Sources */,
+				F13143B71D88B93700C8BE43 /* GeneralMessengerCell.swift in Sources */,
+				F13143B81D88B93700C8BE43 /* HeadLoadingIndicator.swift in Sources */,
+				F13143B91D88B93700C8BE43 /* MessageSentIndicator.swift in Sources */,
+				F13143BA1D88B93700C8BE43 /* MessageCellProtocol.swift in Sources */,
+				F13143BB1D88B93700C8BE43 /* MessageGroup.swift in Sources */,
+				F13143BC1D88B93700C8BE43 /* MessageNode.swift in Sources */,
+				F13143BD1D88B93700C8BE43 /* CameraViewController.swift in Sources */,
+				F13143BE1D88B93700C8BE43 /* InputBarViewProtocol.swift in Sources */,
+				F13143BF1D88B93700C8BE43 /* InputBarView.swift in Sources */,
+				F13143C01D88B93700C8BE43 /* NMessengerBarView.swift in Sources */,
+				F13143C21D88B93700C8BE43 /* NMessenger.swift in Sources */,
+				F13143C31D88B93700C8BE43 /* NMessengerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1418CDF1D380B2400C404B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1245,6 +1382,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F13143A31D88B8FF00C8BE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "nMessenger-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
+				PRODUCT_NAME = nMessenger;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F13143A41D88B8FF00C8BE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "nMessenger-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
+				PRODUCT_NAME = nMessenger;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F1418D091D380B2400C404B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1405,6 +1588,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F13143A51D88B8FF00C8BE43 /* Build configuration list for PBXNativeTarget "nMessenger-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13143A31D88B8FF00C8BE43 /* Debug */,
+				F13143A41D88B8FF00C8BE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F1418CDE1D380B2400C404B5 /* Build configuration list for PBXProject "nMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
