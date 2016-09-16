@@ -185,9 +185,14 @@ public class MessageNode: GeneralMessengerCell {
             
             let ins = ASInsetLayoutSpec(insets: self.avatarInsets, child: avatarBackStack)
             
-            let cellOrientation = isIncomingMessage ? [ins, contentSizeLayout] : [contentSizeLayout,ins]
+            let i = isIncomingMessage ? UIEdgeInsetsMake(15, -15, 0, 0) : UIEdgeInsetsMake(15, 0, 0, -15)
+            
+            let contentIns = ASInsetLayoutSpec(insets: i, child: contentSizeLayout)
+            
+            let cellOrientation = isIncomingMessage ? [ins, contentIns] : [contentIns, ins]
             
             layoutSpecs = ASStackLayoutSpec(direction: .Horizontal, spacing: 0, justifyContent: justifyLocation, alignItems: .Start, children: cellOrientation)
+            
             contentSizeLayout.flexShrink = true
         } else {
             let width = constrainedSize.max.width - self.cellPadding.left - self.cellPadding.right - self.messageOffset
