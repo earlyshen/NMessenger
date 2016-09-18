@@ -18,7 +18,7 @@
 		19F4C12E1D6CF4550044E340 /* UIFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12C1D6CF4550044E340 /* UIFontTests.swift */; };
 		19F4C1311D6CF4C00044E340 /* BubbleConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */; };
 		19F4C1321D6CF4C00044E340 /* MessageNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */; };
-		F13143A11D88B8FF00C8BE43 /* nMessenger-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13143A11D88B8FF00C8BE43 /* nMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = F13143A01D88B8FF00C8BE43 /* nMessenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F13143A61D88B93700C8BE43 /* BubbleConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87101D63813700F3C21C /* BubbleConfigurationProtocol.swift */; };
 		F13143A71D88B93700C8BE43 /* ImageBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87111D63813700F3C21C /* ImageBubbleConfiguration.swift */; };
 		F13143A81D88B93700C8BE43 /* SimpleBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87121D63813700F3C21C /* SimpleBubbleConfiguration.swift */; };
@@ -391,7 +391,7 @@
 		19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleConfigurationTests.swift; sourceTree = "<group>"; };
 		19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNodeTests.swift; sourceTree = "<group>"; };
 		F131439E1D88B8FF00C8BE43 /* nMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nMessenger-iOS.h"; sourceTree = "<group>"; };
+		F13143A01D88B8FF00C8BE43 /* nMessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nMessenger.h; sourceTree = "<group>"; };
 		F13143A21D88B8FF00C8BE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F13143C71D88B98C00C8BE43 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarViewProtocol.swift; sourceTree = "<group>"; };
@@ -659,7 +659,7 @@
 		F131439F1D88B8FF00C8BE43 /* nMessenger-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F13143A01D88B8FF00C8BE43 /* nMessenger-iOS.h */,
+				F13143A01D88B8FF00C8BE43 /* nMessenger.h */,
 				F13143A21D88B8FF00C8BE43 /* Info.plist */,
 			);
 			path = "nMessenger-iOS";
@@ -1083,7 +1083,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13143A11D88B8FF00C8BE43 /* nMessenger-iOS.h in Headers */,
+				F13143A11D88B8FF00C8BE43 /* nMessenger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1671,6 +1671,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
 				PRODUCT_NAME = nMessenger;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1695,6 +1696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
 				PRODUCT_NAME = nMessenger;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
