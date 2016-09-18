@@ -29,6 +29,7 @@
 		F1418D071D380B2400C404B5 /* nMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1418D061D380B2400C404B5 /* nMessengerUITests.swift */; };
 		F14C8B691D66273700F8616F /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C8B681D66273700F8616F /* InputBarView.swift */; };
 		F18C3BE41D8F4AAD00BAE2E3 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18C3BE31D8F4AAD00BAE2E3 /* AsyncDisplayKit.framework */; };
+		F1AC2F091D8F4C230037C9E4 /* nMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AC2F071D8F4C230037C9E4 /* nMessenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1E73C401D760B4600E61960 /* cameraRollIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C3D1D760B4600E61960 /* cameraRollIcon.png */; };
 		F1E73C411D760B4600E61960 /* cameraRollIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C3E1D760B4600E61960 /* cameraRollIcon@2x.png */; };
 		F1E73C421D760B4600E61960 /* cameraRollIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C3F1D760B4600E61960 /* cameraRollIcon@3x.png */; };
@@ -240,6 +241,9 @@
 		F1418D081D380B2400C404B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F14C8B681D66273700F8616F /* InputBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarView.swift; sourceTree = "<group>"; };
 		F18C3BE31D8F4AAD00BAE2E3 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		F1AC2F051D8F4C230037C9E4 /* nMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AC2F071D8F4C230037C9E4 /* nMessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nMessenger.h; sourceTree = "<group>"; };
+		F1AC2F081D8F4C230037C9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E73C3D1D760B4600E61960 /* cameraRollIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraRollIcon.png; sourceTree = "<group>"; };
 		F1E73C3E1D760B4600E61960 /* cameraRollIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraRollIcon@2x.png"; sourceTree = "<group>"; };
 		F1E73C3F1D760B4600E61960 /* cameraRollIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraRollIcon@3x.png"; sourceTree = "<group>"; };
@@ -428,6 +432,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1AC2F011D8F4C230037C9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -492,6 +503,7 @@
 				F1418CE51D380B2400C404B5 /* nMessenger */,
 				F1418CFA1D380B2400C404B5 /* nMessengerTests */,
 				F1418D051D380B2400C404B5 /* nMessengerUITests */,
+				F1AC2F061D8F4C230037C9E4 /* nMessenger-iOS */,
 				F1418CE41D380B2400C404B5 /* Products */,
 				CEEA4FEAB14A1E9BACDB8B3A /* Frameworks */,
 				7E0C8FBB9D65E94C7CDC7F2A /* Pods */,
@@ -504,6 +516,7 @@
 				F1418CE31D380B2400C404B5 /* nMessenger.app */,
 				F1418CF71D380B2400C404B5 /* nMessengerTests.xctest */,
 				F1418D021D380B2400C404B5 /* nMessengerUITests.xctest */,
+				F1AC2F051D8F4C230037C9E4 /* nMessenger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -546,6 +559,15 @@
 				F1418D081D380B2400C404B5 /* Info.plist */,
 			);
 			path = nMessengerUITests;
+			sourceTree = "<group>";
+		};
+		F1AC2F061D8F4C230037C9E4 /* nMessenger-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC2F071D8F4C230037C9E4 /* nMessenger.h */,
+				F1AC2F081D8F4C230037C9E4 /* Info.plist */,
+			);
+			path = "nMessenger-iOS";
 			sourceTree = "<group>";
 		};
 		F1E73C3C1D760B3B00E61960 /* Images */ = {
@@ -899,6 +921,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F1AC2F021D8F4C230037C9E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AC2F091D8F4C230037C9E4 /* nMessenger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		F1418CE21D380B2400C404B5 /* nMessenger */ = {
 			isa = PBXNativeTarget;
@@ -960,6 +993,24 @@
 			productReference = F1418D021D380B2400C404B5 /* nMessengerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F1AC2F041D8F4C230037C9E4 /* nMessenger-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AC2F0C1D8F4C230037C9E4 /* Build configuration list for PBXNativeTarget "nMessenger-iOS" */;
+			buildPhases = (
+				F1AC2F001D8F4C230037C9E4 /* Sources */,
+				F1AC2F011D8F4C230037C9E4 /* Frameworks */,
+				F1AC2F021D8F4C230037C9E4 /* Headers */,
+				F1AC2F031D8F4C230037C9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nMessenger-iOS";
+			productName = "nMessenger-iOS";
+			productReference = F1AC2F051D8F4C230037C9E4 /* nMessenger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -984,6 +1035,10 @@
 						LastSwiftMigration = 0800;
 						TestTargetID = F1418CE21D380B2400C404B5;
 					};
+					F1AC2F041D8F4C230037C9E4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F1418CDE1D380B2400C404B5 /* Build configuration list for PBXProject "nMessenger" */;
@@ -1002,6 +1057,7 @@
 				F1418CE21D380B2400C404B5 /* nMessenger */,
 				F1418CF61D380B2400C404B5 /* nMessengerTests */,
 				F1418D011D380B2400C404B5 /* nMessengerUITests */,
+				F1AC2F041D8F4C230037C9E4 /* nMessenger-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1158,6 +1214,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F1418D001D380B2400C404B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AC2F031D8F4C230037C9E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1341,6 +1404,13 @@
 			files = (
 				194EC68B1D8B29E300FBC9C9 /* OrientationUITest.swift in Sources */,
 				F1418D071D380B2400C404B5 /* nMessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AC2F001D8F4C230037C9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1555,6 +1625,55 @@
 			};
 			name = Release;
 		};
+		F1AC2F0A1D8F4C230037C9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "nMessenger-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
+				PRODUCT_NAME = nMessenger;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1AC2F0B1D8F4C230037C9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "nMessenger-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.workday.nMessenger-iOS";
+				PRODUCT_NAME = nMessenger;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1593,6 +1712,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F1AC2F0C1D8F4C230037C9E4 /* Build configuration list for PBXNativeTarget "nMessenger-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AC2F0A1D8F4C230037C9E4 /* Debug */,
+				F1AC2F0B1D8F4C230037C9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
