@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F1AC2F041D8F4C230037C9E4"
-               BuildableName = "nMessenger-iOS.framework"
+               BuildableName = "nMessenger.framework"
                BlueprintName = "nMessenger-iOS"
                ReferencedContainer = "container:nMessenger.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1AC2F041D8F4C230037C9E4"
-            BuildableName = "nMessenger-iOS.framework"
+            BuildableName = "nMessenger.framework"
             BlueprintName = "nMessenger-iOS"
             ReferencedContainer = "container:nMessenger.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F1AC2F041D8F4C230037C9E4"
-            BuildableName = "nMessenger-iOS.framework"
+            BuildableName = "nMessenger.framework"
             BlueprintName = "nMessenger-iOS"
             ReferencedContainer = "container:nMessenger.xcodeproj">
          </BuildableReference>
